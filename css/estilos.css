@@ -1,5 +1,5 @@
 h1{
-    text-align: center;
+    text-align: left;
     color: blueviolet;
 }
 h2{
@@ -9,5 +9,24 @@ h2{
 }
 p{
     font-size: 20px;
-    text-align: right;
+}
+a{
+    font-size: 30px;
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(233, 45, 217);
+}
+#columna1{
+    top:0px;
+    left:0px;
+    width:200px;
+    margin-top:10px;
+    background-color:#ffff55;
+}
+#columna2{
+    margin-left:220px;
+    margin-right:20px;
+    margin-top:10px;
+    background-color:#ffffbb;
 }
